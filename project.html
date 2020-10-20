@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grooton Round-2</title>
+        <style>
+            body {
+                background-image: url('download.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-size: 100% 100%;
+                
+            }
+            </style>
+            
+
+    </head>
+    <body>
+        <h1>Grooton Test</h1>
+        <h3>Round 2</h3>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name ">
+            </div></br>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" id="age" placeholder="Enter age">
+            </div></br>
+            <div class="form-group">
+                <label for="Dateofbirth">DOB</label>
+                <input type="date" id="dob" name="dob"></br>
+            </div></br>
+            <div class="form-control">Gender
+                <label class="radio-inline">
+                    <input type="radio" name="optradio" checked>Male
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio">Female
+                </label>
+            </div></br>
+            <div class="form-group">Languages Known
+                <select name="cars" class="custom-select mb-3">
+                    <option selected>Python</option>
+                    <option value="java">Java</option>
+                    <option value="javascript">Javascript</option>
+                </select>
+            </div><br>
+            <div class="custom-file mb-3">Upload photograph
+                <input type="file" class="custom-file-input" id="customFile" name="filename">
+                <label class="custom-file-label" for="customFile"></label>
+            </div></br>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email ">
+            </div></br>
+            <div>
+                <label for="appt-time">Start time: </label>
+                <input id="appt-time" type="time" name="appt-time">
+            </div></br>
+            <div>
+                <label for="appt-time">End time: </label>
+                <input id="appt-time" type="time" name="appt-time">
+            </div></br>
+            <div class="form-group">
+                <label for="url">Github Link</label>
+                <input type="url" class="form-control" id="url" placeholder="Enter Url "></div></br>
+            <div class="form-group">LinkedIn Profile
+                <label for="url">LinkedIn Profile</label>
+                <input type="url" class="form-control" id="url" placeholder="Enter Url "></div></br>
+            <div class="form-group">
+                <label for="cgpaRange">CGPA</label>
+                <input type="range" id="cgpaRange" name="cgpa"></div></br>
+            <div class="form-control">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+        <script type="text/javascript" src="Details.json"></script>
+        <script src="project.js"></script>
+
+
+    </body>
+</html>
